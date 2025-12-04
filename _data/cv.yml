@@ -2,96 +2,85 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: David Leeftink
     - name: Languages
-      value: English, German
+      value: English, Dutch
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Machine Learning 
+      institution: Radboud University, Nijmegen, The Netherlands
+      year: 2023 - current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Machine learning, control theory and reinforcement learning.
+        - Expected graduation - April 2027.
+    - title: M.Sc. (cum laude) in Artificial Intelligence
+      institution: Radboud University, Nijmegen, The Netherlands
+      year: 2020 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Electives in computational neuroscience, stochastic systems, complex networks.
+    - title: B.Sc. (cum laude) in Artificial Intelligence
+      institution: Radboud University, Nijmegen, The Netherlands
+      year: 2017 - 2020
+      description:
+        - Electives in non-linear dynamics, (neuro)physics, and computing science.
+    - title: B.A. in Philosophy
+      year: 2014 - 2019
+      institution: Radboud University, Nijmegen, The Netherlands
+   
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Affiliated PhD Student
+      institution: ASM Pacific Technology
+      year: 2023 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Innovation Center of Artificial Intelligence (ICAI) lab member
+        - Conducting research on integrating novel scientific developments into high-tech manufacturing processes
+    - title: Research Intern
+      institution: Machine2Learn (now acquired by AMD), Amsterdam
+      year: 2021 - 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Researched and implemented graph neural networks for semiconductor wire bonding inspection
+    - title: Research Assistant
+      institution: Uncertainty in Complex Systems Lab, Radboud University
+      year: 2020 - 2021
       description:
+        - Supervisor - Dr. Max Hinne
+        - Developed software for scalable variational inference for Gaussian and Wishart processes in TensorFlow 2
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Talks
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Probabilistic Pontryagin's Principle for Model-Based Reinforcement Learning in Continuous-Time
+      institution: Workshop on Theory of Control and Reinforcement Learning, CWI Amsterdam, 2025.
+      description:
+        - Contributed talk
+    - title: Mean Hamiltonian Minimization for Optimal Control under Model Uncertainty
+      institution: IEEE CDC 2025, Rio de Janeiro
+      description:
+        - Paper presentation
+    - title: Effective Planning under Probabilistic Dynamics Models with Optimal Control
+      institution: Workshop on Stochastic Planning and Control of Dynamical Systems, IEEE CDC 2025.
+      description:
+        - Contributed talk
 
-- title: Honors and Awards
-  type: time_table
+- title: Publications
+  type: list
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - See <a href="/publications/">publications page</a> for full list
 
-- title: Academic Interests
-  type: nested_list
+- title: Teaching
+  type: list
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - See <a href="/teaching/">teaching page</a> for details
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - I am an enthusiastic guitarist and enjoy playing both electric guitar (jazz, fusion, rock) and acoustic guitar (classical, bossa nova, fingerstyle). 
+    - I also enjoy listening to music (see also my <a href="/albums/">current musicshelf</a>), reading (see also my <a href="/books/">current bookshelf</a>), traveling, hiking, movies, games, attending concerts, and probably quite some more things.
+

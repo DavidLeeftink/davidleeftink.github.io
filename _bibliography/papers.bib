@@ -1,115 +1,117 @@
----
----
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
 
-@string{aps = {American Physical Society,}}
+%% Created for David.Leeftink at 2025-12-02 15:22:30 +0100 
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
+%% Saved with string encoding Unicode (UTF-8) 
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{leeftink2025cep,
+  title={Automated Discovery of Laser Dicing Processes with {Bayesian} Optimization for Semiconductor Manufacturing},
+  author={Leeftink, David and Doll, Roman and Visserman, Heleen and Post, Marco and Boughorbel, Faysal and Hinne, Max and van Gerven, Marcel},
+  journal={Under Review at IFAC Control Engineering Practice},
+  year={2025},
+  preview={cep_animation.gif},
   selected={true},
-  inspirehep_id = {3255}
+  doi={10.48550/arXiv.2511.23141},
+  
+  abbr={Preprint},
+  html={https://arxiv.org/abs/2511.23141},
+  bibtex_show={true},
+  pdf={leeftink25automatedlaserdicing.pdf},
+  abstract={Laser dicing of semiconductor wafers is a critical step in microelectronic manufacturing, where multiple sequential laser passes precisely separate individual dies from the wafer. Adapting this complex sequential process to new wafer materials typically requires weeks of expert effort to balance process speed, separation quality, and material integrity. We present the first automated discovery of production-ready laser dicing processes on an industrial LASER1205 dicing system. We formulate the problem as a high-dimensional, constrained multi-objective Bayesian optimization task, and introduce a sequential two-level fidelity strategy to minimize expensive destructive die-strength evaluations. On bare silicon and product wafers, our method autonomously delivers feasible configurations that match or exceed expert baselines in production speed, die strength, and structural integrity, using only technician-level operation. Post-hoc validation of different weight configurations of the utility functions reveals that multiple feasible solutions with qualitatively different trade-offs can be obtained from the final surrogate model. Expert-refinement of the discovered process can further improve production speed while preserving die strength and structural integrity, surpassing purely manual or automated methods.},
+  
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
+@inproceedings{leeftink2025optimalcontrolprobabilisticdynamics,
+  title={Optimal Control of Probabilistic Dynamics Models via Mean {Hamiltonian} Minimization}, 
+  author={Leeftink, David and Yıldız, Cagatay and Ridderbusch, Steffen and Hinne, Max and van Gerven, Marcel},
+  booktitle={(in press) 64th IEEE Conference for Decision and Control (CDC)},
+  year={2025},
+  note={In press},
+  doi={10.48550/arXiv.2504.02543},
+  preview={cdc_figure3.jpg},
+  selected={true},
+  html={https://arxiv.org/html/2504.02543v3},
+  code={https://github.com/DavidLeeftink/probabilistic-pontryagin-control},
+  pdf={leeftink25meanhamiltonianminimization.pdf},
+  bibtex_show={true},
+  abbr={IEEE CDC},
+  abstract={Without exact knowledge of the true system dynamics, optimal control of non-linear continuous-time systems requires careful treatment under epistemic uncertainty. In this work, we translate a probabilistic interpretation of the Pontryagin maximum principle to the challenge of optimal control with learned probabilistic dynamics models. Our framework provides a principled treatment of epistemic uncertainty by minimizing the mean Hamiltonian with respect to a posterior distribution over the system dynamics. We propose a multiple shooting numerical method that leverages mean Hamiltonian minimization and is scalable to large-scale probabilistic dynamics models, including ensemble neural ordinary differential equations. Comparisons against other baselines in online and offline model-based reinforcement learning tasks show that our probabilistic Hamiltonian approach leads to reduced trial costs in offline settings and achieves competitive performance in online scenarios. By bridging optimal control and reinforcement learning, our approach offers a principled and practical framework for controlling uncertain systems with learned dynamics.},
+} 
+
+
+@article{kuccukouglu2025bayesian,
+  title={{Bayesian} optimization of cortical neuroprosthetic vision using perceptual feedback},
+  author={K{\"u}{\c{c}}{\"u}ko{\u{g}}lu, Burcu and Soo, Leili and Leeftink, David and Grani, Fabrizio and Soto Sanchez, Cristina and G{\"u}{\c{c}}l{\"u}, Umut and van Gerven, Marcel A. J. and Fernandez, Eduardo},
+  journal={Journal of Neural Engineering},
+  year={2025},
+  doi = {10.1088/1741-2552/adeae9},
+  url = {https://doi.org/10.1088/1741-2552/adeae9},
+  publisher = {IOP Publishing},
+  volume = {22},
+  number = {4},
+  pages = {046024},
+  preview={bophos.jpg},
+  abbr={J. Neural Engineering},
+  bibtex_show={true},
+  html={https://iopscience.iop.org/article/10.1088/1741-2552/adeae9/meta},
+  pdf={kucukoglu2025bayesopt.pdf},
+  code={https://github.com/burcukoglu/BOPhos},
+  abstract={Objective. The challenge in cortical neuroprosthetic vision is determining the optimal, safe stimulation patterns to evoke the desired light perceptions (‘phosphenes’) in blind individuals. Clinical studies gain insights into the perceptual characteristics of phosphenes through patient descriptions on provided stimulation protocols. However, the huge parameter space for multi-electrode stimulation makes it difficult to identify the optimality of the stimulation that lead to well-perceived phosphenes. A systematic search in the parameter space of the electrical stimulation is needed to achieve good perception. Bayesian optimization (BO) is a framework for finding optimal parameters efficiently. Using patient’s perceptual feedback, a model of patient response based on iteratively generated stimulation protocols can be built to maximize perception quality. Approach. A patient implanted with an intracortical 96-channel microelectrode array in their visual cortex was iteratively presented with stimulation protocols, generated via BO vs. random generation (RG) in two separate experiments. Whereas standard BO methods do not scale well to problems with over a dozen inputs, we optimize a set of 40 electrode currents using trust region-based BO. The protocols determine the electrodes to stimulate and with how much current (0–50 µA), on a total current limit of 500 µA. The patient rated each stimulation’s perceptual quality on a Likert scale, where 7 indicated the highest quality and 0 no perception. Main results. The patient ratings gradually converged on higher values with BO, compared to the RG experiment. BO gradually generated protocols with higher total current, in line with the patient preference for higher currents due to brighter phosphenes. Electrodes previously observed as effective in producing phosphene perception were chosen more by BO also with higher current allocation. Significance. This study demonstrates the power of BO in converging to optimal stimulation protocols based on patient feedback, providing an efficient search for stimulation parameters for clinical studies.},
+
+}
+
+@article{huijsdens2024robust,
+  title={Robust inference of dynamic covariance using {Wishart} processes and sequential {Monte} {Carlo}},
+  author={Huijsdens, Hester and Leeftink, David and Geerligs, Linda and Hinne, Max},
+  journal={Entropy},
+  volume={26},
   number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+  pages={695},
+  year={2024},
+  publisher={MDPI},
+  preview={smc3.jpg},
+  abbr={Entropy},
+  html={https://www.mdpi.com/1099-4300/26/8/695},
+  doi={10.3390/e26080695},
+  pdf={huijsdens24smc.pdf},
+  code={https://github.com/Hesterhuijsdens/GWP-SMC},
+  bibtex_show={true},
+  abstract={Several disciplines, such as econometrics, neuroscience, and computational psychology, study the dynamic interactions between variables over time. A Bayesian nonparametric model known as the Wishart process has been shown to be effective in this situation, but its inference remains highly challenging. In this work, we introduce a Sequential Monte Carlo (SMC) sampler for the Wishart process, and show how it compares to conventional inference approaches, namely MCMC and variational inference. Using simulations, we show that SMC sampling results in the most robust estimates and out-of-sample predictions of dynamic covariance. SMC especially outperforms the alternative approaches when using composite covariance functions with correlated parameters. We further demonstrate the practical applicability of our proposed approach on a dataset of clinical depression (𝑛=1), and show how using an accurate representation of the posterior distribution can be used to test for dynamics in covariance.},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
+@article{hinne2022bayesian,
+  title={{Bayesian} model averaging for nonparametric discontinuity design},
+  author={Hinne, Max and Leeftink, David and van Gerven, Marcel A. J. and Ambrogioni, Luca},
+  journal={PLOS ONE},
   volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
   number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  pages={e0270310},
+  year={2022},
+  publisher={Public Library of Science San Francisco, CA USA},
+  preview={bndd2.jpg},
+  abbr={PLOS ONE},
+  bibtex_show={true},
+  doi={10.1371/journal.pone.0270310},
+  html={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0270310},
+  code={https://github.com/mhinne/BNQD},
+  pdf={hinne2022bndd.pdf},
+  abstract={Quasi-experimental research designs, such as regression discontinuity and interrupted time series, allow for causal inference in the absence of a randomized controlled trial, at the cost of additional assumptions. In this paper, we provide a framework for discontinuity-based designs using Bayesian model averaging and Gaussian process regression, which we refer to as ‘Bayesian nonparametric discontinuity design’, or BNDD for short. BNDD addresses the two major shortcomings in most implementations of such designs: overconfidence due to implicit conditioning on the alleged effect, and model misspecification due to reliance on overly simplistic regression models. With the appropriate Gaussian process covariance function, our approach can detect discontinuities of any order, and in spectral features. We demonstrate the usage of BNDD in simulations, and apply the framework to determine the effect of running for political positions on longevity, of the effect of an alleged historical phantom border in the Netherlands on Dutch voting behaviour, and of Kundalini Yoga meditation on heart rate.},
 }
 
-@book{przibram1967letters,
+@inproceedings{leeftink2020spectral,
+  title={Spectral discontinuity design: Interrupted time series with spectral mixture kernels},
+  author={Leeftink, David and Hinne, Max},
+  booktitle={Machine Learning for Health (workshop at NeurIPS, 2020},
+  pages={213--225},
+  year={2020},
+  organization={PMLR},
+  preview={sdd3.jpg},
+  abbr={ML4H (NeurIPS workshop)},
+  pdf={leeftink20sdd.pdf},
+  html={https://proceedings.mlr.press/v136/leeftink20a.html},
+  code={https://github.com/DavidLeeftink/Spectral-Discontinuity-Design},
+  abstract={Quasi-experimental designs allow researchers to determine the effect of a treatment, even when randomized controlled trials are infeasible. A prominent example is interrupted time series (ITS) design, in which the effect of an intervention is determined by comparing the extrapolation of a model trained on data acquired up to moment of intervention, with the interpolation by a model trained on data up to the intervention. Typical approaches for ITS use (segmented) linear regression, and consequently ignore many of the spectral features of time series data. In this paper, we propose a Bayesian nonparametric approach to ITS, that uses Gaussian process regression and the spectral mixture kernel. This approach can capture more structure of the time series than traditional methods like linear regression or AR(I)MA models, which improves the extrapolation performance, and hence the accuracy of causal inference. We demonstrate our approach in simulations, and use it to determine the causal effect of Kundalini yoga meditation on heart rate oscillations. We show that our approach is able to detect the causal effect of interventions that alter the spectral features of these time series. },
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
 }
