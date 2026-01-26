@@ -22,24 +22,16 @@
   abstract={Laser dicing of semiconductor wafers is a critical step in microelectronic manufacturing, where multiple sequential laser passes precisely separate individual dies from the wafer. Adapting this complex sequential process to new wafer materials typically requires weeks of expert effort to balance process speed, separation quality, and material integrity. We present the first automated discovery of production-ready laser dicing processes on an industrial LASER1205 dicing system. We formulate the problem as a high-dimensional, constrained multi-objective Bayesian optimization task, and introduce a sequential two-level fidelity strategy to minimize expensive destructive die-strength evaluations. On bare silicon and product wafers, our method autonomously delivers feasible configurations that match or exceed expert baselines in production speed, die strength, and structural integrity, using only technician-level operation. Post-hoc validation of different weight configurations of the utility functions reveals that multiple feasible solutions with qualitatively different trade-offs can be obtained from the final surrogate model. Expert-refinement of the discovered process can further improve production speed while preserving die strength and structural integrity, surpassing purely manual or automated methods.},
   
 }
-
-@inproceedings{leeftink2025optimalcontrolprobabilisticdynamics,
-  title={Optimal Control of Probabilistic Dynamics Models via Mean {Hamiltonian} Minimization}, 
-  author={Leeftink, David and Yıldız, Cagatay and Ridderbusch, Steffen and Hinne, Max and van Gerven, Marcel},
-  booktitle={(in press) 64th IEEE Conference for Decision and Control (CDC)},
+@INPROCEEDINGS{leeftink2025optimalcontrolprobabilisticdynamics,
+  author={Leeftink, David and Yıldız, Çağatay and Ridderbusch, Steffen and Hinne, Max and Van Gerven, Marcel},
+  booktitle={2025 IEEE 64th Conference on Decision and Control (CDC)}, 
+  title={Optimal Control of Probabilistic Dynamics Models via Mean Hamiltonian Minimization}, 
   year={2025},
-  note={In press},
-  doi={10.48550/arXiv.2504.02543},
-  preview={cdc_figure3.jpg},
-  selected={true},
-  html={https://arxiv.org/html/2504.02543v3},
-  code={https://github.com/DavidLeeftink/probabilistic-pontryagin-control},
-  pdf={leeftink25meanhamiltonianminimization.pdf},
-  bibtex_show={true},
-  abbr={IEEE CDC},
-  abstract={Without exact knowledge of the true system dynamics, optimal control of non-linear continuous-time systems requires careful treatment under epistemic uncertainty. In this work, we translate a probabilistic interpretation of the Pontryagin maximum principle to the challenge of optimal control with learned probabilistic dynamics models. Our framework provides a principled treatment of epistemic uncertainty by minimizing the mean Hamiltonian with respect to a posterior distribution over the system dynamics. We propose a multiple shooting numerical method that leverages mean Hamiltonian minimization and is scalable to large-scale probabilistic dynamics models, including ensemble neural ordinary differential equations. Comparisons against other baselines in online and offline model-based reinforcement learning tasks show that our probabilistic Hamiltonian approach leads to reduced trial costs in offline settings and achieves competitive performance in online scenarios. By bridging optimal control and reinforcement learning, our approach offers a principled and practical framework for controlling uncertain systems with learned dynamics.},
-} 
-
+  volume={},
+  number={},
+  pages={4146-4153},
+  keywords={Uncertain systems;Uncertainty;System dynamics;Optimal control;Reinforcement learning;Ordinary differential equations;Probabilistic logic;Minimization;Mathematical models;Numerical models},
+  doi={10.1109/CDC57313.2025.11312001}}
 
 @article{kuccukouglu2025bayesian,
   title={{Bayesian} optimization of cortical neuroprosthetic vision using perceptual feedback},
