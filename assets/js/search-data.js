@@ -79,14 +79,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/slaughterhouse5/";
-            },},{id: "news-upcoming-talk-i-will-give-a-contributed-talk-at-the-workshop-on-theory-of-control-and-reinforcement-learning-at-cwi-amsterdam-on-the-19th-of-june-2025",
-          title: 'Upcoming Talk: I will give a contributed talk at the Workshop on Theory...',
+            },},{id: "news-upcoming-talk-i-gave-a-contributed-talk-at-the-workshop-on-theory-of-control-and-reinforcement-learning-at-cwi-amsterdam-on-the-19th-of-june-2025",
+          title: 'Upcoming Talk: I gave a contributed talk at the Workshop on Theory of...',
           description: "",
           section: "News",},{id: "news-paper-acceptance-our-work-on-mean-hamiltonian-minimization-has-been-accepted-at-ieee-conference-for-decision-and-control-cdc-2025",
           title: 'Paper Acceptance: Our work on Mean Hamiltonian Minimization has been accepted at IEEE...',
           description: "",
-          section: "News",},{id: "news-upcoming-talk-i-will-give-a-lightning-round-talk-at-the-workshop-on-stochastic-planning-amp-amp-control-of-dynamical-systems-at-cdc-in-rio-de-janeiro-on-december-9th-2025",
-          title: 'Upcoming Talk: I will give a lightning round talk at the Workshop on...',
+          section: "News",},{id: "news-upcoming-talk-i-presented-our-recent-work-on-mean-hamiltonian-minimization-in-a-lightning-round-talk-at-the-workshop-on-stochastic-planning-amp-amp-control-of-dynamical-systems-at-cdc-in-rio-de-janeiro-on-december-9th-2025",
+          title: 'Upcoming Talk: I presented our recent work on mean hamiltonian minimization in a...',
           description: "",
           section: "News",},{id: "news-new-preprint-automated-discovery-of-laser-dicing-processes-with-bayesian-optimization-for-semiconductor-manufacturing",
           title: 'New preprint: Automated Discovery of Laser Dicing Processes with Bayesian Optimization for Semiconductor...',
