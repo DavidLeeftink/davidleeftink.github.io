@@ -28,7 +28,7 @@ latest_posts:
 ---
 I'm a PhD candidate at the Donders Institute for Brain and Cognition at Radboud University, working closely with [Dr. Max Hinne](https://www.ru.nl/personen/hinne-m) and [Prof. Marcel van Gerven](https://www.ru.nl/personen/gerven-m-van).
 
-I am particularly interested in the intersection of *(probabilistic) machine learning*, *dynamical systems*, and *control theory*; this work frames my approach to <span style="color: var(--global-theme-color)">reinforcement learning</span>. A central question throughout my work is: how do we make **trustworthy** and **robust** decisions under model **uncertainty**?
+I am particularly interested in the intersection of *(probabilistic) machine learning*, *dynamical systems*, and *control theory*; this work frames my approach to *reinforcement learning*. A central question throughout my work is: how do we make **trustworthy** and **robust** decisions under model **uncertainty**?
 
 On the *practical* side, I have developed and contributed to decision-making algorithms that have successfully been deployed in real-world settings, including optimizing [semiconductor manufacturing](https://arxiv.org/abs/2511.23141) processes, and adapting stimulation patterns of [neural implants](https://iopscience.iop.org/article/10.1088/1741-2552/adeae9/meta) in the human brain to evoke visual percepts in a blind patient.
 
