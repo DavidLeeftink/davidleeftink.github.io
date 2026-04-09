@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**New preprint:** [Automated Discovery of Laser Dicing Processes with Bayesian Optimization for Semiconductor Manufacturing](https://arxiv.org/abs/2511.23141)
+**Paper accepted:** Our recent work on [Bayesian Optimization for Semiconductor Manufacturing](https://www.sciencedirect.com/science/article/pii/S0967066126001851) has been accepted for IFAC's Control Engineering Practice.

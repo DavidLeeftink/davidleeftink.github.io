@@ -32,7 +32,7 @@ My research sits at the intersection of *(probabilistic) machine learning*, *dyn
 
 A central question throughout my work is: how do we make **trustworthy** and **robust** decisions under model **uncertainty**?
 
-* **Theory:** I approach this by leveraging probabilistic optimal control to manage [epistemic uncertainty](https://ieeexplore.ieee.org/abstract/document/11312001) and design robust **deep policies**.
+* **Theory:** I approach this by leveraging probabilistic optimal control to manage [epistemic uncertainty](https://ieeexplore.ieee.org/abstract/document/11312001) and design deep neural network policies.
 
 * **Practice:** I develop intelligent decision-making algorithms for complex real-world systems. My work has been deployed to optimize [semiconductor manufacturing](https://www.sciencedirect.com/science/article/pii/S0967066126001851) and to adapt stimulation patterns in [neural implants](https://iopscience.iop.org/article/10.1088/1741-2552/adeae9/meta) to restore visual percepts for the blind.
 
