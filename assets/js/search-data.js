@@ -88,8 +88,8 @@ ninja.data = [{
           section: "News",},{id: "news-upcoming-talk-i-presented-our-recent-work-on-mean-hamiltonian-minimization-in-a-lightning-round-talk-at-the-workshop-on-stochastic-planning-amp-amp-control-of-dynamical-systems-at-cdc-in-rio-de-janeiro-on-december-9th-2025",
           title: 'Upcoming Talk: I presented our recent work on mean hamiltonian minimization in a...',
           description: "",
-          section: "News",},{id: "news-new-preprint-automated-discovery-of-laser-dicing-processes-with-bayesian-optimization-for-semiconductor-manufacturing",
-          title: 'New preprint: Automated Discovery of Laser Dicing Processes with Bayesian Optimization for Semiconductor...',
+          section: "News",},{id: "news-paper-accepted-our-recent-work-on-bayesian-optimization-for-semiconductor-manufacturing-has-been-accepted-for-ifac-s-control-engineering-practice",
+          title: 'Paper accepted: Our recent work on Bayesian Optimization for Semiconductor Manufacturing has been...',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
