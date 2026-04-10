@@ -34,9 +34,9 @@ A central question in my work is: how can we make **reliable decisions under mod
 
 To address this, my work centers on three directions:
 
-* **Probabilistic control under uncertainty:** [optimal control methods](https://ieeexplore.ieee.org/abstract/document/11312001) for systems with unknown or partially known dynamics.
+* *Probabilistic control under uncertainty:* [optimal control methods](https://ieeexplore.ieee.org/abstract/document/11312001) for systems with unknown or partially known dynamics.
 
-* **Data-efficient optimization of physical systems:** Bayesian optimization for high-cost and real-world settings, such as [semiconductor manufacturing](https://www.sciencedirect.com/science/article/pii/S0967066126001851) and [neural implants](https://iopscience.iop.org/article/10.1088/1741-2552/adeae9/meta) to restore visual percepts for the blind.
+* **Data-efficient optimization of physical systems:** Bayesian optimization for high-cost and real-world settings, such as [semiconductor manufacturing](https://www.sciencedirect.com/science/article/pii/S0967066126001851) and [neural implants](https://iopscience.iop.org/article/10.1088/1741-2552/adeae9/meta).
 
 * **Deep Reinforcement Learning:** model-based and model-free reinforcement learning from a dynamical systems perspective, aiming to improve *data-efficiency* and *interpretability*.
  
