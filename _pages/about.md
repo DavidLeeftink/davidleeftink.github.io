@@ -28,12 +28,14 @@ latest_posts:
 ---
 I am a PhD candidate at the Donders Institute for Brain, Cognition and Behaviour (Radboud University), supervised by [Dr. Max Hinne](https://www.ru.nl/personen/hinne-m) and [Prof. Marcel van Gerven](https://www.ru.nl/personen/gerven-m-van).
 
-My research sits at the intersection of *(probabilistic) machine learning*, *dynamical systems*, and *control theory*, which frames my approach to **reinforcement learning**. 
+My research focuses on reinforcement learning and control for dynamical systems under uncertainty. I take a dynamical systems perspective on deep reinforcement learning, using tools from optimal control theory to develop methods that are robust, stable, and deployable in real-world systems.
 
-A central question throughout my work is: how do we make **trustworthy** and **robust** decisions under model **uncertainty**?
+A central question in my work is: how can we make **reliable decisions under model uncertainty?**
 
-* **Theory:** I approach this by leveraging probabilistic optimal control to manage [epistemic uncertainty](https://ieeexplore.ieee.org/abstract/document/11312001) and design deep neural network policies.
+To address this, my work centers on three directions:
 
-* **Practice:** I develop intelligent decision-making algorithms for complex real-world systems. My work has been deployed to optimize [semiconductor manufacturing](https://www.sciencedirect.com/science/article/pii/S0967066126001851) and to adapt stimulation patterns in [neural implants](https://iopscience.iop.org/article/10.1088/1741-2552/adeae9/meta) to restore visual percepts for the blind.
+* **Probabilistic control under uncertain dynamics:** I study control methods for systems with unknown or partially known dynamics, with recent works focusing on [control-Hamiltonian formulations of probabilistic dynamics models](https://ieeexplore.ieee.org/abstract/document/11312001).
 
-Ultimately, my goal is to root modern reinforcement learning algorithms in the notions of <span style="color: var(--global-theme-color)">robustness</span>, <span style="color: var(--global-theme-color)">safety</span> and <span style="color: var(--global-theme-color)">stability</span>. 
+* **Data-efficient optimization of physical systems:** I design Bayesian optimization methods for high-cost, safety-critical settings, including [semiconductor manufacturing](https://www.sciencedirect.com/science/article/pii/S0967066126001851) and adapting stimulation patterns in [neural implants](https://iopscience.iop.org/article/10.1088/1741-2552/adeae9/meta) to restore visual percepts for the blind.
+
+* **Deep Reinforcement Learning from a dynamical systems perspective:** I investigate both model-based and model-free reinforcement learning through the lens of optimal control, aiming to improve *data-efficiency*, *stability*, and *interpretability* of deep RL methods.
