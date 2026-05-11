@@ -4,14 +4,14 @@
     - name: Full Name
       value: David Leeftink
     - name: Languages
-      value: English, Dutch
+      value: English, Dutch (native), German (B2)
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Machine Learning 
       institution: Radboud University, Nijmegen, The Netherlands
-      year: 2023 - current
+      year: 2023 - April 2027
       description:
         - Machine learning, control theory and reinforcement learning.
         - Expected graduation - April 2027.
@@ -35,10 +35,10 @@
   contents:
     - title: Affiliated PhD Student
       institution: ASM Pacific Technology
-      year: 2023 - present
+      year: 2023 - April 2027
       description:
         - Innovation Center of Artificial Intelligence (ICAI) lab member
-        - Conducting research on integrating novel scientific developments into high-tech manufacturing processes
+        - Conducting research on integrating scientific developments into high-tech manufacturing processes
     - title: Research Intern
       institution: Machine2Learn (now acquired by AMD), Amsterdam
       year: 2021 - 2022
