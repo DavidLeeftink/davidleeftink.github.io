@@ -28,7 +28,9 @@ latest_posts:
 ---
 I am a PhD candidate at the Donders Institute for Brain, Cognition and Behaviour (Radboud University), supervised by [Dr. Max Hinne](https://www.ru.nl/personen/hinne-m) and [Prof. Marcel van Gerven](https://www.ru.nl/personen/gerven-m-van).
 
-My research focuses on reinforcement learning and control for dynamical systems under uncertainty. I approach deep RL through the lens of optimal control theory, aiming to understand and improve decision-making in dynamical systems. I also work on Bayesian optimization for high-cost and real-world settings, such as [semiconductor manufacturing](https://www.sciencedirect.com/science/article/pii/S0967066126001851) and [neural implants](https://iopscience.iop.org/article/10.1088/1741-2552/adeae9/meta).
+My research focuses on reinforcement learning and control for dynamical systems under uncertainty. I approach deep *reinforcement learning* through the lens of **optimal control** and **probability** theory, aiming to understand and improve decision-making. 
+
+I also work on Bayesian optimization for high-cost and real-world settings, such as [semiconductor manufacturing](https://www.sciencedirect.com/science/article/pii/S0967066126001851) and [neural implants](https://iopscience.iop.org/article/10.1088/1741-2552/adeae9/meta).
 
 My goal is to develop methods that are robust and deployable in real-world systems.
 
