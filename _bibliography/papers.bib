@@ -7,6 +7,20 @@
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+@misc{leeftink2026neuralcostatepoliciesstructuring,
+      title={Neural Co-state Policies: Structuring Hidden States in Recurrent Reinforcement Learning}, 
+      abstract={A key capability of intelligent agents is operating under partial observability: reasoning and acting effectively despite missing or incomplete state observations. While recurrent (memory-based) policies learned via reinforcement learning address this by encoding history into latent state representations, their internal dynamics remain uninterpretable black boxes. This paper establishes a formal link between these hidden states and the Pontryagin minimum principle (PMP) from optimal control. We demonstrate that for standard recurrent architectures, latent representations map directly to PMP co-states, which allows the readout layer to be interpreted as performing Hamiltonian minimization. Because standard reward maximization does not naturally discover this alignment, we introduce a PMP-derived co-state loss to explicitly structure the internal dynamics. Empirically, this approach matches or improves performance on partially observable DMControl tasks, and is robust against zero-shot out-of-distribution sensor masking. By framing recurrent networks as dynamic processes governed by the minimum principle, we provide a principled approach to designing robust continuous control policies. },
+      author={David Leeftink and Max Hinne and Marcel van Gerven},
+      year={2026},
+      eprint={2605.05373},
+      archivePrefix={arXiv},
+      pdf={leeftink2026neuralcostatepolicies.pdf}
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.05373}, 
+      preview = {ncp.png},
+      selected={true},
+}
+	
 
 @inproceedings{leeftink2025optimalcontrolprobabilisticdynamics,
 	abbr = {IEEE CDC},
@@ -18,7 +32,6 @@
 	html = {https://arxiv.org/html/2504.02543v3},
 	keywords = {Uncertain systems;Uncertainty;System dynamics;Optimal control;Reinforcement learning;Ordinary differential equations;Probabilistic logic;Minimization;Mathematical models;Numerical models},
 	pages = {4146-4153},
-	pdf = {leeftink25meanhamiltonianminimization.pdf},
 	preview = {cdc_figure3.jpg},
 	selected = {true},
 	title = {Optimal Control of Probabilistic Dynamics Models via Mean Hamiltonian Minimization},
@@ -45,7 +58,7 @@ bibtex_show = {true},
 preview = {cep_animation.gif},
 selected = {true}
 }
-	
+
 
 @article{kuccukouglu2025bayesian,
 	abbr = {J. Neural Engineering},
@@ -58,14 +71,15 @@ selected = {true}
 	journal = {Journal of Neural Engineering},
 	number = {4},
 	pages = {046024},
-	pdf = {kucukoglu2025bayesopt.pdf},
 	preview = {bophos_neuron.jpg},
 	publisher = {IOP Publishing},
 	title = {{Bayesian} optimization of cortical neuroprosthetic vision using perceptual feedback},
 	url = {https://doi.org/10.1088/1741-2552/adeae9},
 	volume = {22},
 	year = {2025},
-	bdsk-url-1 = {https://doi.org/10.1088/1741-2552/adeae9}}
+	bdsk-url-1 = {https://doi.org/10.1088/1741-2552/adeae9},
+	selected = {true}
+}
 
 @article{huijsdens2024robust,
 	abbr = {Entropy},
@@ -78,7 +92,6 @@ selected = {true}
 	journal = {Entropy},
 	number = {8},
 	pages = {695},
-	pdf = {huijsdens24smc.pdf},
 	preview = {smc3.jpg},
 	publisher = {MDPI},
 	title = {Robust inference of dynamic covariance using {Wishart} processes and sequential {Monte} {Carlo}},
@@ -97,12 +110,12 @@ selected = {true}
 	journal = {PLOS ONE},
 	number = {6},
 	pages = {e0270310},
-	pdf = {hinne2022bndd.pdf},
 	preview = {bndd2.jpg},
 	publisher = {Public Library of Science San Francisco, CA USA},
 	title = {{Bayesian} model averaging for nonparametric discontinuity design},
 	volume = {17},
 	year = {2022},
+	selected = {true},
 	bdsk-url-1 = {https://doi.org/10.1371/journal.pone.0270310}}
 
 @inproceedings{leeftink2020spectral,
@@ -115,7 +128,7 @@ selected = {true}
 	html = {https://proceedings.mlr.press/v136/leeftink20a.html},
 	organization = {PMLR},
 	pages = {213--225},
-	pdf = {leeftink20sdd.pdf},
 	preview = {sdd3.jpg},
+	selected = {true},
 	title = {Spectral discontinuity design: Interrupted time series with spectral mixture kernels},
 	year = {2020}}
