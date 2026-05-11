@@ -757,7 +757,7 @@ footer.sticky-bottom {
           width:  100%;
           height:auto; // Maintain aspect ratio
           max-width: 600px; // Adjust this value for your two-column images
-          max-height: 200px; // Adjust this value for your two-column images
+          max-height: 20px; // Adjust this value for your two-column images
           object-fit: contain; // Prevents distortion
         }
       }
