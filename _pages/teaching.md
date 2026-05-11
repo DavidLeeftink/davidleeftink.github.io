@@ -15,9 +15,14 @@ nav_order: 6
   
 
 ### Student Supervision 
-* **Marco Post** (M.Sc. Computing Science, 2024-2025), main supervisor - *Transfer Learning in High-Dimensional Bayesian Optimization*
-* **Luca Pattavina** (M.Sc. Artificial Intelligence, 2025-2026), co-supervisor - *Multi-objective Bayesian Optimization for Laser Dicing*
-* **Adem Kaya** (M.Sc. Artificial Intelligence, 2025-2026), advisor - *Efficient Learning of Neural Policies under Partially Observability.*
+* **Marco Post** (M.Sc.), main supervisor - *Transfer Learning in High-Dimensional Bayesian Optimization*
+* **Luca Pattavina** (M.Sc.), co-supervisor - *Multi-objective Bayesian Optimization for Laser Dicing*
+* **Adem Kaya** (M.Sc.), co-supervisor - *Efficient Learning of Neural Policies under Partially Observability.*
+* **Bart van Hees** (B.Sc), supervisor. *Dynamic Hyperparameter Adaptation in Reinforcement Learning.*
+* **Mark Looman** (B.Sc), supervisor. *Safe Optimization of PID controllers using SafeOPT.*
+* **Konstantinos Konstantinou** (B.Sc), supervisor. *Gaussian Process Classification for Shot-Make Probability in Basketball.*
+* **Kamil Kuit** (B.Sc), supervisor - *LLM detection using Gaussian Processes.*
+* **Thijs van Schaik** (B.Sc), supervisor. *Safe RL via Probabilistic Shielding with Gaussian Processes.*
 
 
 ### Guest Lectures
