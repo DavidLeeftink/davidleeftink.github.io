@@ -30,6 +30,7 @@ I am a PhD candidate at the Donders Institute for Brain, Cognition and Behaviour
 
 My research focuses on reinforcement learning and control for dynamical systems under uncertainty. I approach deep RL through the lens of optimal control theory, aiming to understand and improve decision-making under uncertainty in dynamical systems. My goal is to develop methods that are robust and deployable in real-world systems.
 
+<!--
 A central question in my work is: how can we make **reliable decisions under model uncertainty?**
 To address this, my work centers on three directions:
 
@@ -40,3 +41,4 @@ To address this, my work centers on three directions:
 * **Deep Reinforcement Learning:** model-based and model-free reinforcement learning from a dynamical systems perspective, aiming to improve *data-efficiency* and *interpretability*.
  
  Ultimately, my goal is to root modern reinforcement learning algorithms in the notions of <span style="color: var(--global-theme-color)">robustness</span>, <span style="color: var(--global-theme-color)">safety</span>, and <span style="color: var(--global-theme-color)">stability</span>.
+ -->
