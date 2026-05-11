@@ -18,11 +18,11 @@ nav_order: 6
 * **Marco Post** (M.Sc.), main supervisor - *Transfer Learning in High-Dimensional Bayesian Optimization*
 * **Luca Pattavina** (M.Sc.), co-supervisor - *Multi-objective Bayesian Optimization for Laser Dicing*
 * **Adem Kaya** (M.Sc.), co-supervisor - *Efficient Learning of Neural Policies under Partially Observability.*
-* **Bart van Hees** (B.Sc), supervisor. *Dynamic Hyperparameter Adaptation in Reinforcement Learning.*
-* **Mark Looman** (B.Sc), supervisor. *Safe Optimization of PID controllers using SafeOPT.*
-* **Konstantinos Konstantinou** (B.Sc), supervisor. *Gaussian Process Classification for Shot-Make Probability in Basketball.*
-* **Kamil Kuit** (B.Sc), supervisor - *LLM detection using Gaussian Processes.*
-* **Thijs van Schaik** (B.Sc), supervisor. *Safe RL via Probabilistic Shielding with Gaussian Processes.*
+* **Bart van Hees** (B.Sc), main supervisor. *Dynamic Hyperparameter Adaptation in Reinforcement Learning.*
+* **Mark Looman** (B.Sc), main supervisor. *Safe Optimization of PID controllers using SafeOPT.*
+* **Konstantinos Konstantinou** (B.Sc), main supervisor. *Gaussian Process Classification for Shot-Make Probability in Basketball.*
+* **Kamil Kuit** (B.Sc), main supervisor - *LLM detection using Gaussian Processes.*
+* **Thijs van Schaik** (B.Sc), main supervisor. *Safe RL via Probabilistic Shielding with Gaussian Processes.*
 
 
 ### Guest Lectures
