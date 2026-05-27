@@ -6,7 +6,7 @@ subtitle: #<a href='#'>Machine Learning · Control Theory · Reinforcement Learn
 
 profile:
   align: right
-  image: prof_pic2_small.jpeg
+  image: prof_pic2_small_zoom.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Radboud University</p>
