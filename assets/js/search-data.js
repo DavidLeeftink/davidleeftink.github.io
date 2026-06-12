@@ -80,7 +80,7 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/cdc_accepted_announcement/";
-            },},{id: "news-talk-i-presented-on-probabilistic-pontryagin-s-minimum-principle-in-a-lightning-round-talk-at-the-workshop-on-stochastic-planning-amp-amp-control-of-dynamical-systems-at-cdc-in-rio-de-janeiro-a-snapshot-of-the-presentation",
+            },},{id: "news-talk-i-presented-on-probabilistic-pontryagin-s-minimum-principle-in-a-lightning-round-talk-at-the-workshop-on-stochastic-planning-amp-amp-control-of-dynamical-systems-at-cdc-in-rio-de-janeiro",
           title: 'Talk: I presented on probabilistic Pontryagin’s minimum principle in a lightning round talk...',
           description: "",
           section: "News",},{id: "news-paper-accepted-our-recent-work-on-bayesian-optimization-for-semiconductor-manufacturing-has-been-accepted-for-ifac-s-control-engineering-practice",
