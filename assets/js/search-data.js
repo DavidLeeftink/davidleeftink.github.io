@@ -80,14 +80,14 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/cdc_accepted_announcement/";
-            },},{id: "news-talk-i-presented-on-probabilistic-pontryagin-s-minimum-principle-in-a-lightning-round-talk-at-the-workshop-on-stochastic-planning-amp-amp-control-of-dynamical-systems-at-cdc-in-rio-de-janeiro",
-          title: 'Talk: I presented on probabilistic Pontryagin’s minimum principle in a lightning round talk...',
+            },},{id: "news-talk-i-on-probabilistic-pontryagin-s-minimum-principle-in-a-lightning-round-talk-at-the-workshop-on-stochastic-planning-amp-amp-control-of-dynamical-systems-at-cdc-in-rio-de-janeiro",
+          title: 'Talk: I on probabilistic Pontryagin’s minimum principle in a lightning round talk at...',
           description: "",
           section: "News",},{id: "news-paper-accepted-our-recent-work-on-bayesian-optimization-for-semiconductor-manufacturing-has-been-accepted-for-ifac-s-control-engineering-practice",
           title: 'Paper accepted: Our recent work on Bayesian Optimization for Semiconductor Manufacturing has been...',
           description: "",
-          section: "News",},{id: "news-winner-poster-prize-very-happy-to-have-received-the-poster-award-for-the-natural-computing-and-neurotechnology-theme-at-the-donders-day-of-2026-i-presented-on-our-recent-preprint-on-neural-co-state-policies",
-          title: 'Winner Poster Prize: Very happy to have received the poster award for the...',
+          section: "News",},{id: "news-winner-poster-prize-very-happy-to-have-received-the-for-the-natural-computing-and-neurotechnology-theme-at-the-donders-day-of-2026-i-presented-on-our-recent-preprint-on-neural-co-state-policies",
+          title: 'Winner Poster Prize: Very happy to have received the for the Natural Computing...',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
