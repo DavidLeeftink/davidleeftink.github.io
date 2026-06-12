@@ -6,7 +6,6 @@ inline: true
 related_posts: false
 ---
 
-**Talk:** I presented on probabilistic Pontryagin's minimum principle in a lightning round talk at the [Workshop on Stochastic Planning & Control of Dynamical Systems](https://spc-cdc25.github.io/) at CDC in Rio de Janeiro 🇧🇷. 
-<a href="{{ '/assets/img/cdc_2025.jpeg' | relative_url }}">
-  <img src="{{ '/assets/img/cdc_2025.jpeg' | relative_url }}" alt="Stochastic Planning & Control of Dynamical Systems workshop @ CDC, 2025" style="max-width: 300px; border-radius: 5px;">
-</a>
+**Talk:** I <a href="{{ '/assets/img/cdc_2025.jpeg' | relative_url }}">
+  <img src="{{ '/assets/img/cdc_2025.jpeg' | relative_url }}" alt="presented" style="max-width: 300px; border-radius: 5px;">
+</a> on probabilistic Pontryagin's minimum principle in a lightning round talk at the [Workshop on Stochastic Planning & Control of Dynamical Systems](https://spc-cdc25.github.io/) at CDC in Rio de Janeiro 🇧🇷. 
