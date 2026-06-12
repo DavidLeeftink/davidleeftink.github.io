@@ -75,12 +75,10 @@ ninja.data = [{
             },},{id: "news-talk-i-gave-a-contributed-talk-at-the-workshop-on-theory-of-control-and-reinforcement-learning-at-cwi-amsterdam-on-indirect-methods-for-probabilistic-reinforcement-learning",
           title: 'Talk: I gave a contributed talk at the Workshop on Theory of Control...',
           description: "",
-          section: "News",},{id: "news-cdc-accepted-announcement",
-          title: 'Cdc_accepted_announcement',
+          section: "News",},{id: "news-paper-acceptance-our-work-on-mean-hamiltonian-minimization-has-been-accepted-at-ieee-conference-for-decision-and-control-cdc-2025",
+          title: 'Paper Acceptance: Our work on Mean Hamiltonian Minimization has been accepted at IEEE...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/cdc_accepted_announcement/";
-            },},{id: "news-talk-i-on-probabilistic-pontryagin-s-minimum-principle-in-a-lightning-round-talk-at-the-workshop-on-stochastic-planning-amp-amp-control-of-dynamical-systems-at-cdc-in-rio-de-janeiro",
+          section: "News",},{id: "news-talk-i-on-probabilistic-pontryagin-s-minimum-principle-in-a-lightning-round-talk-at-the-workshop-on-stochastic-planning-amp-amp-control-of-dynamical-systems-at-cdc-in-rio-de-janeiro",
           title: 'Talk: I on probabilistic Pontryagin’s minimum principle in a lightning round talk at...',
           description: "",
           section: "News",},{id: "news-paper-accepted-our-recent-work-on-bayesian-optimization-for-semiconductor-manufacturing-has-been-accepted-for-ifac-s-control-engineering-practice",
