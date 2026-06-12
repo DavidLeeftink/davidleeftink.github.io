@@ -84,6 +84,9 @@ ninja.data = [{
           section: "News",},{id: "news-paper-accepted-our-recent-work-on-bayesian-optimization-for-semiconductor-manufacturing-has-been-accepted-for-ifac-s-control-engineering-practice",
           title: 'Paper accepted: Our recent work on Bayesian Optimization for Semiconductor Manufacturing has been...',
           description: "",
+          section: "News",},{id: "news-winner-poster-prize-donders-day-very-happy-to-have-received-the-poster-award-for-the-natural-computing-and-neurotechnology-theme-at-the-donders-day-of-2026-i-presented-a-poster-on-our-recent-preprint-on-neural-co-state-policies",
+          title: 'Winner Poster Prize Donders Day: Very happy to have received the poster award...',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
