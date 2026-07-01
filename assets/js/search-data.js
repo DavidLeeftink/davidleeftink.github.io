@@ -87,6 +87,9 @@ ninja.data = [{
           section: "News",},{id: "news-winner-poster-prize-very-happy-to-have-received-the-power-award-for-the-natural-computing-and-neurotechnology-theme-at-the-donders-day-of-2026-i-presented-on-our-recent-preprint-on-neural-co-state-policies-photo",
           title: 'Winner Poster Prize: Very happy to have received the power award for the...',
           description: "",
+          section: "News",},{id: "news-squiddmeet-seminar-i-visited-tu-delft-to-give-a-talk-at-the-local-seminar-organized-by-the-sequential-decision-making-group-thanks-for-having-me",
+          title: 'SquidDMeet seminar: I visited TU Delft to give a talk at the local...',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
