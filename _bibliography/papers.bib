@@ -8,8 +8,8 @@
 
 
 @article{leeftink2026neuralcostatepolicies,
-  title={Neural Co-state Policies: Structuring Hidden States in Recurrent Reinforcement Learning}, 
-  abstract={A key capability of intelligent agents is operating under partial observability: reasoning and acting effectively despite missing or incomplete state observations. While recurrent (memory-based) policies learned via reinforcement learning address this by encoding history into latent state representations, their internal dynamics remain uninterpretable black boxes. This paper establishes a formal link between these hidden states and the Pontryagin minimum principle (PMP) from optimal control. We demonstrate that for standard recurrent architectures, latent representations map directly to PMP co-states, which allows the readout layer to be interpreted as performing Hamiltonian minimization. Because standard reward maximization does not naturally discover this alignment, we introduce a PMP-derived co-state loss to explicitly structure the internal dynamics. Empirically, this approach matches or improves performance on partially observable DMControl tasks, and is robust against zero-shot out-of-distribution sensor masking. By framing recurrent networks as dynamic processes governed by the minimum principle, we provide a principled approach to designing robust continuous control policies.},
+  title={Hidden States as Value Gradients: The Pontryagin Structure of Recurrent Policies}, 
+  abstract={A key capability of intelligent agents is to act effectively under incomplete state observations. Recurrent policies address this by compressing observation histories into a hidden state. In this work, we show that the hidden state of a recurrent policy admits a control-theoretic interpretation: it plays the role of the co-state in Pontryagin's minimum principle, and the readout that maps it to actions implements control-Hamiltonian minimization. The hidden state thus tracks the gradient of the value function, encoding the optimality structure of the underlying control problem. We formalize this correspondence through a class of policies we refer to as co-state policies (CPs) and show that several modern recurrent cells implicitly realize this structure. The correspondence also allows for a co-state loss for actor-critic training, in which the critic's gradient serves as a target for the actor's hidden state. Empirically, we find that hidden states trained with the co-state loss encode co-state information beyond what is linearly decodable from the environment state alone, and that the loss improves policies both within and outside this class on challenging locomotion tasks, including the H1 and Berkeley humanoids. By connecting the minimum principle to recurrent memory, we provide a control-theoretic account of what hidden states compute in continuous control and a mechanism for shaping them toward optimality.},
   author={Leeftink, David and Hinne, Max and van Gerven, Marcel},
   year={2026},
   journal={arXiv preprint arXiv:2605.05373},
@@ -17,9 +17,9 @@
   archivePrefix={arXiv},
   primaryClass={cs.LG},
   bibtex_show={true},
-  pdf={leeftink2026neuralcostatepolicies.pdf},
+  pdf={Hidden States as Value Gradients - Preprint.pdf},
   url={https://arxiv.org/abs/2605.05373},
-  preview={ncp.png},
+  preview={valuegradient.png},
   abbr = {Preprint},
   selected={true}
 }
