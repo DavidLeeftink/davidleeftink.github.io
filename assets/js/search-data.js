@@ -93,8 +93,8 @@ ninja.data = [{
           section: "News",},{id: "news-visiting-tu-darmstadt-for-the-next-couple-of-months-i-will-be-in-darmstadt-visiting-the-intelligent-autonoumous-systems-ias-group-of-prof-jan-peters-if-you-are-nearby-please-reach-out",
           title: 'Visiting TU Darmstadt: For the next couple of months, I will be in...',
           description: "",
-          section: "News",},{id: "news-new-preprint-we-have-a-new-preprint-online-called-hidden-states-as-value-gradient-there-is-a-pdf-copy-below-happy-to-hear-any-thoughts-on-it",
-          title: 'New preprint: We have a new preprint online, called “Hidden States as Value...',
+          section: "News",},{id: "news-new-preprint-we-have-a-new-preprint-online-called-hidden-states-as-value-gradient-happy-to-hear-any-thoughts-on-it",
+          title: 'New preprint: We have a new preprint online, called Hidden States as Value...',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
