@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-**New preprint:** We have a new preprint online, called "Hidden States as Value Gradient". There is a pdf copy below, happy to hear any thoughts on it!
+**New preprint:** We have a new preprint online, called [Hidden States as Value Gradient](https://arxiv.org/pdf/2605.05373). Happy to hear any thoughts on it!
 

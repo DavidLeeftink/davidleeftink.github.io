@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: #<a href='#'>Machine Learning · Control Theory · Reinforcement Learning</a>. 
+subtitle: #<a href='#'>Machine Learning, Control Theory, Reinforcement Learning</a>. 
 
 profile:
   align: right
@@ -24,7 +24,7 @@ announcements:
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit:  # leave blank to include all the blog posts
 ---
 I am a PhD candidate at the Donders Institute for Brain, Cognition and Behaviour (Radboud University), supervised by [Dr. Max Hinne](https://www.ru.nl/personen/hinne-m) and [Prof. Marcel van Gerven](https://www.ru.nl/personen/gerven-m-van).
 
